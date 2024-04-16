@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|c:\\users\\tomso\\desktop\\productsapprepo\\productsapp\\productsapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|solutionrelative:productsapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED3DFB5D-A2C1-4E85-A192-F65074F8071E}|ProductsApp.Tests\\ProductsApp.Tests.csproj|C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\productsapp.tests\\testsimpleproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED3DFB5D-A2C1-4E85-A192-F65074F8071E}|ProductsApp.Tests\\ProductsApp.Tests.csproj|solutionrelative:productsapp.tests\\testsimpleproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\productsapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|solutionrelative:productsapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ProductsApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|c:\\users\\tomso\\desktop\\productsapprepo\\productsapp\\productsapp\\models\\productapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\productsapp\\models\\productapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|solutionrelative:productsapp\\models\\productapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CF187C-D9A0-49B4-B53B-CC116D805BB2}|ProductsApp\\ProductsApp.csproj|c:\\users\\tomso\\desktop\\productsapprepo\\productsapp\\productsapp\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +28,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ProductsApp",
+              "DocumentMoniker": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp\\ProductsApp.csproj",
+              "RelativeDocumentMoniker": "ProductsApp\\ProductsApp.csproj",
+              "ToolTip": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp\\ProductsApp.csproj",
+              "RelativeToolTip": "ProductsApp\\ProductsApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-15T23:45:30.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TestSimpleProductController.cs",
               "DocumentMoniker": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp.Tests\\TestSimpleProductController.cs",
               "RelativeDocumentMoniker": "ProductsApp.Tests\\TestSimpleProductController.cs",
               "ToolTip": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp.Tests\\TestSimpleProductController.cs",
               "RelativeToolTip": "ProductsApp.Tests\\TestSimpleProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABDAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwDAAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T22:18:39.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ProductsApp\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ProductsApp\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T22:18:39.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductApp.cs",
               "DocumentMoniker": "C:\\Users\\tomso\\Desktop\\ProductsAppRepo\\ProductsApp\\ProductsApp\\Models\\ProductApp.cs",
               "RelativeDocumentMoniker": "ProductsApp\\Models\\ProductApp.cs",
@@ -60,8 +78,7 @@
               "RelativeToolTip": "ProductsApp\\Models\\ProductApp.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:18:39.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T22:18:39.569Z"
             }
           ]
         }

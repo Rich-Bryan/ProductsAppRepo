@@ -16,19 +16,19 @@
 							"var jsonData = JSON.parse(responseBody)\r",
 							"\r",
 							"pm.test(\"value of [0].Id to be 1\", () => {pm.expect(jsonData[0].Id).to.equal(1)})\r",
-							"pm.test('value of [0].Name to be Tomato Soup', () => {pm.expect(jsonData[0].Name).to.equal('Tomato Soup');})\r",
-							"pm.test(\"value of [0].Category to be Groceries\", () => {pm.expect(jsonData[0].Category).to.equal(\"Groceries\")})\r",
-							"pm.test('value of [0].Price to be 1', () => {pm.expect(jsonData[0].Price).to.equal(1);})\r",
+							"pm.test('value of [0].Name to be Tomato Soup', () => {pm.expect(jsonData[0].Name).to.equal('Potato Soup');})\r",
+							"pm.test(\"value of [0].Category to be Groceries\", () => {pm.expect(jsonData[0].Category).to.equal(\"Schmoceries\")})\r",
+							"pm.test('value of [0].Price to be 1', () => {pm.expect(jsonData[0].Price).to.equal(42);})\r",
 							"\r",
 							"pm.test(\"value of [1].Id to be 2\", () => {pm.expect(jsonData[1].Id).to.equal(2)})\r",
-							"pm.test('value of [1].Name to be Yo-yo', () => {pm.expect(jsonData[1].Name).to.equal('Yo-yo');})\r",
-							"pm.test(\"value of [1].Category to be Toys\", () => {pm.expect(jsonData[1].Category).to.equal(\"Toys\")})\r",
-							"pm.test('value of [1].Price to be 3.75', () => {pm.expect(jsonData[1].Price).to.equal(3.75);})\r",
+							"pm.test('value of [1].Name to be Yo-yo', () => {pm.expect(jsonData[1].Name).to.equal('Potato Soup');})\r",
+							"pm.test(\"value of [1].Category to be Toys\", () => {pm.expect(jsonData[1].Category).to.equal(\"Schmoceries\")})\r",
+							"pm.test('value of [1].Price to be 3.75', () => {pm.expect(jsonData[1].Price).to.equal(42);})\r",
 							"\r",
 							"pm.test(\"value of [2].Id to be 3\", () => {pm.expect(jsonData[2].Id).to.equal(3)})\r",
-							"pm.test('value of [2].Name to be Hammer', () => {pm.expect(jsonData[2].Name).to.equal('Hammer');})\r",
-							"pm.test(\"value of [2].Category to be Hardware\", () => {pm.expect(jsonData[2].Category).to.equal(\"Hardware\")})\r",
-							"pm.test('value of [2].Price to be 16.99', () => {pm.expect(jsonData[2].Price).to.equal(16.99);})\r",
+							"pm.test('value of [2].Name to be Hammer', () => {pm.expect(jsonData[2].Name).to.equal('Potato Soup');})\r",
+							"pm.test(\"value of [2].Category to be Hardware\", () => {pm.expect(jsonData[2].Category).to.equal(\"Schmoceries\")})\r",
+							"pm.test('value of [2].Price to be 16.99', () => {pm.expect(jsonData[2].Price).to.equal(42);})\r",
 							"\r",
 							"pm.test(\"response to be 200 OK\", () => {pm.response.to.have.status(200)});"
 						],
@@ -41,12 +41,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:44364//api/products",
+					"raw": "http://localhost:44329//api/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "44364",
+					"port": "44329",
 					"path": [
 						"",
 						"api",
@@ -66,9 +66,9 @@
 							"var jsonData = pm.response.json();\r",
 							"\r",
 							"pm.test('value of [0].Id to be 1', () => {pm.expect(jsonData.Id).to.equal(1);})\r",
-							"pm.test('value of [0].Name to be 1', () => {pm.expect(jsonData.Name).to.equal('Tomato Soup');})\r",
-							"pm.test(\"value of [0].Category to be 1\", () => {pm.expect(jsonData.Category).to.equal(\"Groceries\")})\r",
-							"pm.test('value of [0].Price to be 1', () => {pm.expect(jsonData.Price).to.equal(1);})\r",
+							"pm.test('value of [0].Name to be 1', () => {pm.expect(jsonData.Name).to.equal('Potato Soup');})\r",
+							"pm.test(\"value of [0].Category to be 1\", () => {pm.expect(jsonData.Category).to.equal(\"Schmoceries\")})\r",
+							"pm.test('value of [0].Price to be 1', () => {pm.expect(jsonData.Price).to.equal(42);})\r",
 							"\r",
 							"pm.test('response to be 200 OK', () => {pm.response.to.have.status(200);})"
 						],
@@ -81,14 +81,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:44364/api/products/id?id=1",
+					"raw": "http://localhost:44329/api/products/id?id=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "44364",
+					"port": "44329",
 					"path": [
-						"",
 						"api",
 						"products",
 						"id"
